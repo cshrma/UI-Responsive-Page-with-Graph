@@ -26,7 +26,7 @@
         	<div class="container">
             <!-- Logo -->
 				<div class="topbar-left">
-    				<a href="index.html" class="logo"><span>GraphProfile</span></a>
+    				<a href="index.html" class="logo"><span>CSH- Graph</span></a>
 				</div>
 <!-- End Logo -->
 			</div>
@@ -37,31 +37,29 @@
 	<div class="wrapper">
 		<div class="container">
         	<div class="row">
-				<div class="col-sm-12">
+				<div class="col-sm-6">
 			    	<div class="card-box">
 			        	<div class="row">
 							<form name="myForm" novalidate ng-submit="updateGraph()">
 								<div class="form-group">
-									<label for="exampleInputEmail1">Name</label>
+									<label for="exampleInputEmail1">Enter Name Here...</label>
 			                      	<input name="name" type="text" class="form-control" id="id-name" ng-model= "name" required />
 										<span class="custom-message" ng-show="myForm.name.$error.required">Name is required.</span>
 								</div>
 			                  	<div class="form-group">
-									<label for="exampleInputEmail1">String</label>
+									<label for="exampleInputEmail1">Enter String Here...</label>
 			                      	<textarea name="text" class="form-control" id="id-text" ng-model= "text" required ng-change="updateGraph()"></textarea>
 								    	<span class="custom-message" ng-show="myForm.text.$error.required" >String is required.</span>
 
 								</div>
-								<button type="submit" class="btn btn-purple waves-effect waves-light" ng-disabled="myForm.name.$invalid ||
-										 myForm.text.$invalid">Submit</button>
+								<button type="submit" class="btn-block btn-success waves-effect waves-light" ng-disabled="myForm.name.$invalid ||
+										 myForm.text.$invalid">Test Nodes</button>
 							</form>
 			            <!-- end col -->
 					</div><!-- end row -->
     			</div>
 			</div><!-- end col -->
-		</div>
-		<div class="row">
-			<div class="col-sm-12">
+			<div class="col-sm-6">
 			    <div class="card-box" id="mygraph"></div>
 			</div>
 		</div>

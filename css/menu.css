@@ -10,6 +10,8 @@ File: Menu
   margin-top: 8px;
   font-family: 'Rancho', cursive;
   float: left;
+  width: 100%;
+  text-align: center;
 }
 .logo span span {
   color: #10c469 !important;
@@ -37,7 +39,7 @@ File: Menu
   color: #71b6f9;
 }
 #topnav .topbar-main {
-  background-color: #435966;
+  background-color: #585cde;
 }
 #topnav .topbar-main .badge {
   position: absolute;

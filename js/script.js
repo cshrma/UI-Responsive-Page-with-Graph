@@ -1,8 +1,7 @@
 angular.module("Chaitanya", [])
 	.controller("controller", function($scope){
-	    $scope.name	=	"Chaitanya"; // Default Value
+	    $scope.name	=	"Chaitanya";
 		$scope.text	=	"How are you ?";
-		
 		$scope.updateGraph	=	function(){
 			
 			// For creating the Nodes in the Graph

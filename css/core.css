@@ -352,6 +352,7 @@ a:focus {
   background-clip: padding-box;
   margin-bottom: 20px;
   background-color: #ffffff;
+  border: 2px solid #b7b7b7;
 }
 .card-box .card-drop {
   color: #98a6ad;
